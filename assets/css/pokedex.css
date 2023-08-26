@@ -84,11 +84,12 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 .pokemon .number {
     color: #000;
-    opacity: .3;
+    opacity: .2;
     text-align: right;
     font-size: .625rem;
 }
@@ -126,6 +127,28 @@
     max-width: 100%;
     height: 70px;
 }
+.pokemon .experience{
+    color: #fff;
+    background-color: #6d29ad;
+    padding: .3rem;
+    margin: auto;
+    font-size: .625rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
+.pokemon .weight{
+    color: #fff;
+    background-color: rgb(180, 33, 33);
+    padding: .3rem;
+    margin: auto;
+    font-size: .625rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
 
 .pagination {
     display: flex;
@@ -144,6 +167,7 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 380px) {
